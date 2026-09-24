@@ -17,11 +17,6 @@ palavras = frase.split()
 quantidade = len(palavras)
 print(f'A frase contém {quantidade} palavras.')
 
-# Escreva um programa que inverte a ordem das palavras em uma frase.
-frase2 = 'Invertendo a ordem das palavras'
-frase_invertida = " ".join(frase2.split()[::-1])
-print(frase_invertida)
-
 # Escreva um programa que capitalize a primeira letra de cada palavra em uma frase.
 titulo = "aprendendo python no senac"
 titulo_formatado = titulo.title()
